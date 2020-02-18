@@ -3,3 +3,42 @@
     padding: 0;
     font-family: TTNormsPro, Roboto, Helvetica, Arial, sans-serif;
 }
+:root{
+    --headerNavMainBg: #66B3E9;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--headerNavMainBg);
+    
+
+}
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content:  */
+}
+li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.leftNav{
+    width: 650px;
+    background-color: blue;
+}
+.rightNav{
+    width: 227px;
+    background-color: blue;
+}
