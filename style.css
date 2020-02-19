@@ -1,44 +1,145 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: TTNormsPro, Roboto, Helvetica, Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
 }
-:root{
-    --headerNavMainBg: #66B3E9;
+/*colors used in this website*/
+:root {
+  --headerNavMainBg: #66b3e9;
+  --navBottomBorder: #1dc093;
 }
-
-header{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--headerNavMainBg);
-    
-
+/*contain nav, logo*/
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--headerNavMainBg);
 }
-nav{
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/*nav styling*/
+nav {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* justify-content:  */
+/*nav ul styling*/
+nav ul {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-li{
-    list-style-type: none;
-    text-transform: uppercase;
+/*nav li*/
+nav li {
+  height: 25px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 3px;
 }
-.leftNav{
-    width: 650px;
-    background-color: blue;
+/*nav li mouse hover styling*/
+nav li:hover {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 3px;
+  border-bottom: 2px solid var(--navBottomBorder);
 }
-.rightNav{
-    width: 227px;
-    background-color: blue;
+/*left section of nav*/
+.leftNav {
+  width: 500px;
+}
+/*right section of nav*/
+.rightNav {
+  width: 350px;
+}
+/*nav select styling*/
+nav select {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/*nav select mouse hover styling*/
+nav select:hover {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/*nav option styling*/
+nav option {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  background-color: white;
+  color: black;
+}
+/*nav button styling*/
+nav button {
+  height: 35px;
+  width: 120px;
+  border: 2px solid var(--navBottomBorder);
+  border-radius: 1px solid 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+}
+/*nav button mouse hover styling*/
+nav button:hover {
+  height: 35px;
+  width: 120px;
+  border: 2px solid var(--navBottomBorder);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  text-transform: uppercase;
+  background-color: var(--navBottomBorder);
+  color: white;
+  box-shadow: 2px 2px gray;
+}
+/*section styling*/
+section{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--headerNavMainBg);
+}
+/*content styling*/
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  color: white;
+}
+.content h1{
+  font-size: 56px;
+  line-height: 56px;
+  font-weight: 700;
 }
