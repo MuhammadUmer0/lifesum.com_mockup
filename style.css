@@ -133,9 +133,12 @@ section{
 }
 /*content styling*/
 .content{
+  height: 395px;
+  width: 490px;
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  justify-content: space-between;
+  
   color: white;
 }
 .content h1{
@@ -146,4 +149,9 @@ section{
 .content img{
   height: 565px; 
   width: 280px;
+}
+.content p{
+  font-size: 34px;
+  line-height: 43px;
+  font-weight: 400;
 }
