@@ -7,6 +7,7 @@
 :root {
   --headerNavMainBg: #66b3e9;
   --navBottomBorder: #1dc093;
+  --btnSignUp: linear-gradient(130deg, #ffa634, #ff435b);
 }
 /*contain nav, logo*/
 header {
@@ -146,9 +147,9 @@ section{
   line-height: 56px;
   font-weight: 700;
 }
-.content img{
-  height: 565px; 
-  width: 280px;
+section img{
+  height: 500px; 
+  width: 320px;
 }
 .content p{
   font-size: 34px;
@@ -193,11 +194,11 @@ section{
   letter-spacing: 3px;
   cursor: pointer;
 }
-.btnRow .btnReadMore{
+.btnRow .btnSignUp{
   width: 182px;
-  background-color: transparent;
+  background-image: var(--btnSignUp);
   color: white;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
@@ -208,4 +209,18 @@ section{
   font-weight: 600;
   letter-spacing: 3px;
   cursor: pointer;
+}
+section .rating{
+  height: 225px;
+  width: 250px;
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+
+}
+.rating p{
+  font-size: 34px;
+  line-height: 43px;
+  font-weight: 400;
+  color: wheat;
 }
