@@ -155,3 +155,57 @@ section{
   line-height: 43px;
   font-weight: 400;
 }
+.content .btnRow{
+  height: 60px;
+  width:380px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnRow .btnReadMore{
+  width: 182px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.btnRow .btnReadMore:hover{
+  width: 182px;
+  background-color: white;
+  color: var(--headerNavMainBg);
+  border: 2px solid white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.btnRow .btnReadMore{
+  width: 182px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
