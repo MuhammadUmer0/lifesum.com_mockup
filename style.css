@@ -249,4 +249,11 @@ section .rating {
 }
 .about .aboutCol{
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutCol img{
+  height: 150px;
+  width: 230px;;
 }
