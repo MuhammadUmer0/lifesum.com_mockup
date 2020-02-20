@@ -238,8 +238,9 @@ section .rating {
 }
 .about{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 .about h1{
   font-size: 55px;
