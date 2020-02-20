@@ -8,6 +8,7 @@
   --headerNavMainBg: #66b3e9;
   --navBottomBorder: #1dc093;
   --btnSignUp: linear-gradient(130deg, #ffa634, #ff435b);
+  --heading: #242424;
 }
 /*contain nav, logo*/
 header {
@@ -124,8 +125,8 @@ nav button:hover {
   box-shadow: 2px 2px gray;
 }
 /*section styling*/
-section{
-  height: 700px;
+section {
+  height: 500px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -133,36 +134,37 @@ section{
   background-color: var(--headerNavMainBg);
 }
 /*content styling*/
-.content{
+.content {
   height: 395px;
   width: 490px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   color: white;
 }
-.content h1{
+.content h1 {
   font-size: 56px;
   line-height: 56px;
   font-weight: 700;
 }
-section img{
-  height: 500px; 
+section img {
+  margin-top: 5em;
+  height: 500px;
   width: 320px;
 }
-.content p{
+.content p {
   font-size: 34px;
   line-height: 43px;
   font-weight: 400;
 }
-.content .btnRow{
+.content .btnRow {
   height: 60px;
-  width:380px;
+  width: 380px;
   display: flex;
   justify-content: space-between;
 }
-.btnRow .btnReadMore{
+.btnRow .btnReadMore {
   width: 182px;
   background-color: transparent;
   color: white;
@@ -178,7 +180,7 @@ section img{
   letter-spacing: 3px;
   cursor: pointer;
 }
-.btnRow .btnReadMore:hover{
+.btnRow .btnReadMore:hover {
   width: 182px;
   background-color: white;
   color: var(--headerNavMainBg);
@@ -194,7 +196,7 @@ section img{
   letter-spacing: 3px;
   cursor: pointer;
 }
-.btnRow .btnSignUp{
+.btnRow .btnSignUp {
   width: 182px;
   background-image: var(--btnSignUp);
   color: white;
@@ -210,25 +212,41 @@ section img{
   letter-spacing: 3px;
   cursor: pointer;
 }
-section .rating{
+section .rating {
   height: 450px;
   width: 250px;
   display: flex;
   flex-direction: column;
-
 }
-.rating p{
+.rating p {
   font-size: 34px;
   line-height: 43px;
   font-weight: 400;
   color: white;
 }
-.rating .ratingApple{
+.rating .ratingApple {
+  height: 50px;
+  width: 100px;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-around;
+  /* background-color: yellow; */
 }
-.ratingApple img{
+.ratingApple img {
   height: 200px;
   width: 450px;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about h1{
+  font-size: 55px;
+  line-height: 61px;
+  font-weight: 700;
+  color: var(--heading);
+}
+.about .aboutCol{
+  display: flex;
 }
