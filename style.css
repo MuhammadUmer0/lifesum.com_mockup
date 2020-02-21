@@ -375,3 +375,27 @@ section .rating {
   display: flex;
   justify-content: center;
 }
+.reviewImg{
+  height: 590px;
+  width: 654px;
+  background-image: url("images/nike-small.4be9368a.jpg");
+  border-radius: 20px;
+}
+.reviewImg .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text h1{
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 33px;
+  color: white;
+}
+.text p{
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  color: white;
+}
