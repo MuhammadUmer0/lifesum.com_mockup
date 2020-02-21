@@ -9,7 +9,8 @@
   --navBottomBorder: #1dc093;
   --btnSignUp: linear-gradient(130deg, #ffa634, #ff435b);
   --heading: #242424;
-  --dietPlanBg: #FAFAF5;
+  --dietPlanBg: #fafaf5;
+  --btnQuiz: linear-gradient(130deg, hsl(152, 58%, 53%), #00b698);
 }
 /*contain nav, logo*/
 header {
@@ -237,13 +238,13 @@ section .rating {
   height: 200px;
   width: 450px;
 }
-.about{
+.about {
   display: flex;
   flex-direction: column;
-  justify-content: center ;
+  justify-content: center;
   align-items: center;
 }
-.about h1{
+.about h1 {
   font-size: 55px;
   line-height: 61px;
   font-weight: 700;
@@ -251,14 +252,14 @@ section .rating {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-.about .aboutRow{
+.about .aboutRow {
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-bottom: 4em;
 }
-.about .aboutCol{
+.about .aboutCol {
   height: 435px;
   width: 366px;
   display: flex;
@@ -266,11 +267,11 @@ section .rating {
   justify-content: center;
   align-items: center;
 }
-.aboutCol img{
+.aboutCol img {
   height: 150px;
-  width: 230px;;
+  width: 230px;
 }
-.aboutCol h3{
+.aboutCol h3 {
   text-align: center;
   font-size: 32px;
   line-height: 35px;
@@ -279,18 +280,63 @@ section .rating {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
-.aboutCol p{
+.aboutCol p {
   text-align: center;
   font-size: 23px;
   line-height: 33px;
   font-weight: 400;
   color: var(--heading);
 }
-.dietPlan{
-  height: 100px;
+.dietPlan {
+  height: 280px;
   width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dietPlanBg);
+  border-radius: 10px;
+}
+.mainDiv {
+  height: 280px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dietPlanBg);
+  padding-bottom: 3em;
+}
+.contentBtn {
+  height: 250px;
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contentBtn h1 {
+  font-size: 47px;
+  line-height: 52px;
+  color: var(--heading);
+  font-weight: 700;
+}
+.contentBtn button {
+  height: 60px;
+  width: 245px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  outline: none;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 600;
+  cursor: pointer;
+  background-image: var(--btnQuiz);
+  letter-spacing: 1px;
+}
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
