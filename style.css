@@ -337,6 +337,41 @@ section .rating {
 }
 .testimonial {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--dietPlanBg);
+}
+.testimonial .certificate{
+  height: 150px;
+  width: 650px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.certificate img{
+  height: 113px;
+  width: 181px;
+}
+.testimonial .review{
+  height: 128px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.review .reviewText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  height: 100px;
+  width: 350px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--heading);
+}
+.star{
+  display: flex;
+  justify-content: center;
 }
