@@ -9,6 +9,7 @@
   --navBottomBorder: #1dc093;
   --btnSignUp: linear-gradient(130deg, #ffa634, #ff435b);
   --heading: #242424;
+  --dietPlanBg: #FAFAF5;
 }
 /*contain nav, logo*/
 header {
@@ -239,7 +240,7 @@ section .rating {
 .about{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center ;
   align-items: center;
 }
 .about h1{
@@ -247,8 +248,19 @@ section .rating {
   line-height: 61px;
   font-weight: 700;
   color: var(--heading);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.about .aboutRow{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 4em;
 }
 .about .aboutCol{
+  height: 435px;
+  width: 366px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -257,4 +269,28 @@ section .rating {
 .aboutCol img{
   height: 150px;
   width: 230px;;
+}
+.aboutCol h3{
+  text-align: center;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  color: var(--heading);
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.aboutCol p{
+  text-align: center;
+  font-size: 23px;
+  line-height: 33px;
+  font-weight: 400;
+  color: var(--heading);
+}
+.dietPlan{
+  height: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dietPlanBg);
 }
