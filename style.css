@@ -227,14 +227,15 @@ section .rating {
   line-height: 43px;
   font-weight: 400;
   color: white;
+  background-color: var(--heading);
 }
 .rating .ratingApple {
-  height: 50px;
+  height: 70px;
   width: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 .ratingApple img {
   height: 200px;
