@@ -152,9 +152,9 @@ section {
   font-weight: 700;
 }
 section img {
-  margin-top: 5em;
-  height: 500px;
-  width: 320px;
+  margin-top: 6em;
+  height: 550px;
+  width: 350px;
 }
 .content p {
   font-size: 34px;
@@ -235,7 +235,6 @@ section .rating {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: yellow;
 }
 .ratingApple img {
   height: 200px;
