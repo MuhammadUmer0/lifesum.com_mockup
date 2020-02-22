@@ -21,7 +21,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: var(--headerNavMainBg);
+  background-image: linear-gradient(7deg, #66B3EA, #6D7BE7);
 }
 /*nav styling*/
 nav {
@@ -134,7 +134,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: var(--headerNavMainBg);
+  background-image: linear-gradient(150deg, #66B3EA, #6D7BE7);
 }
 /*content styling*/
 .content {
