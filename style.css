@@ -11,6 +11,7 @@
   --heading: #242424;
   --dietPlanBg: #fafaf5;
   --btnQuiz: linear-gradient(130deg, hsl(152, 58%, 53%), #00b698);
+  --footerLiHover: #3caae6;
 }
 /*contain nav, logo*/
 header {
@@ -465,6 +466,9 @@ footer{
   background-color: var(--headerNavMainBg);
 } 
 footer .content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 90%;
   background-color: var(--heading);
 }
@@ -476,8 +480,32 @@ footer ul{
   margin-top: 2em;
 }
 ul .heading{
-  
+  font-size: 17px;
+  line-height: 19px;
+  color: #363636;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
 }
 footer li{
   list-style-type: none;
+  margin-bottom: 0.3em;
+
+}
+footer li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--heading);
+}
+footer li a:hover{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--footerLiHover);
 }
