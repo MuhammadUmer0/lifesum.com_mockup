@@ -143,7 +143,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   color: white;
 }
 .content h1 {
@@ -227,7 +226,6 @@ section .rating {
   line-height: 43px;
   font-weight: 400;
   color: white;
-  background-color: var(--heading);
 }
 .rating .ratingApple {
   height: 70px;
@@ -241,6 +239,7 @@ section .rating {
   width: 450px;
 }
 .about {
+  margin-top: 3em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -338,6 +337,7 @@ section .rating {
   letter-spacing: 1px;
 }
 .testimonial {
+  margin-top:3em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -345,17 +345,21 @@ section .rating {
   background-color: var(--dietPlanBg);
 }
 .testimonial .certificate{
+  margin-top: 2em;
   height: 150px;
   width: 650px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 2em;
 }
 .certificate img{
   height: 113px;
   width: 181px;
 }
 .testimonial .review{
+  margin-top:2em;
+  margin-bottom: 2em;
   height: 128px;
   width: 90%;
   display: flex;
@@ -363,6 +367,7 @@ section .rating {
   align-items: center;
 }
 .review .reviewText{
+  
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -402,6 +407,8 @@ section .rating {
   font-weight: 400;
 }
 .signUp{
+  margin-top:2em;
+  margin-bottom: 2em;
   height: 650px;
   width: 80%;
   display: flex;
@@ -417,6 +424,8 @@ section .rating {
   color: var(--heading);
 }
 .signUp button{
+  margin-top:2em;
+  margin-bottom: 2em;
   height: 60px;
   width: 330px;
   background-image: var(--btnSignUp);
@@ -459,23 +468,19 @@ section .rating {
   width: 400px;
 }
 footer{
-  height: 542px;
+  height: 450px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 } 
 footer .content{
   display: flex;
-  /* justify-content: space-around; */
   align-items: center;
   width: 80%;
-  
 }
 footer .linksCol{
-  width: 70%;
-  
+  width: 78%;
 }
 footer ul{
   margin-top: 2em;
@@ -493,7 +498,6 @@ footer li{
   list-style-type: none;
   margin-bottom: 0.3em;
   color: var(--heading);
-
 }
 .margin{
   margin-top:3.5em;
