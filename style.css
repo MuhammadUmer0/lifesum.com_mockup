@@ -203,7 +203,6 @@ section img {
   width: 182px;
   background-image: var(--btnSignUp);
   color: white;
-  /* border: 2px solid white; */
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
@@ -214,6 +213,8 @@ section img {
   font-weight: 600;
   letter-spacing: 3px;
   cursor: pointer;
+  outline: none;
+  border: none;
 }
 section .rating {
   height: 450px;
@@ -463,18 +464,18 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--headerNavMainBg);
+  
 } 
 footer .content{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   align-items: center;
-  width: 90%;
-  background-color: var(--heading);
+  width: 80%;
+  
 }
 footer .linksCol{
-  width: 25%;
-  background-color: var(--navBottomBorder);
+  width: 70%;
+  
 }
 footer ul{
   margin-top: 2em;
@@ -491,7 +492,11 @@ ul .heading{
 footer li{
   list-style-type: none;
   margin-bottom: 0.3em;
+  color: var(--heading);
 
+}
+.margin{
+  margin-top:3.5em;
 }
 footer li a{
   text-decoration: none;
@@ -508,4 +513,17 @@ footer li a:hover{
   line-height: 20px;
   text-transform: capitalize;
   color: var(--footerLiHover);
+}
+li .p{
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 400;
+}
+.tosterGif{
+  height: 78px;
+  width: 50px;
+}
+.playStore{
+  height: 45px;
+  width: 140px;
 }
